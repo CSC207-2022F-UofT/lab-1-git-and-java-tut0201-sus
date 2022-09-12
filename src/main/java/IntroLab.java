@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String uyallen() {
+        return printLabMessage("What's up", "Allen", true, "amogus");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,7 +63,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(IntroLab.uyallen());
 
     }
 
